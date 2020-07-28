@@ -1,0 +1,7 @@
+FROM fedora
+RUN dnf install -y python pip && \
+    dnf clean all
+RUN pip install howdoi
+ENTRYPOINT ["/usr/bin/howdoi"]
+
+#broken
