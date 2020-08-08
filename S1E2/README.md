@@ -5,7 +5,7 @@ You know all those helper scripts you have collected over the years? Have you ev
 
 ## Details
 * Air Date: Aug. 5, 2020
-* Watch the episode
+* [Watch the episode](https://www.twitch.tv/videos/701084499) (_NOTE: link may expire on Oct. 4, 2020, see [openshift.tv](https://openshift.tv) if it does._)
 * [Show Notes](#show-notes)
 * [Sweet Sweet Internet Points](#sweet-sweet-internet-points)
 * [Video Highlights](#video-highlights)
@@ -70,4 +70,8 @@ However, those points are manually added by the admins.
 If you have any questions about the points, find us on [discord](https://discord.gg/5VMVGJt).
 
 ### Video Highlights:
-
+* [nano vs vi](https://youtu.be/QmArB_0EU6Q)
+* [blender-render works!](https://youtu.be/4NU5j9l7lpY)
+* [filed an RFE for Containerfile](https://youtu.be/5b_lNBUtbgY)
+* [sharing a container and a future show teaser](https://youtu.be/QlHe9tbihc8)
+* [All highlights as a playlist](https://www.youtube.com/playlist?list=PLbwVPt31Dtta985m8QAobJyi9H_LJrNm4)
