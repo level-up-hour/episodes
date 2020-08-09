@@ -1,0 +1,11 @@
+FROM ubi8
+
+RUN yum install -y ghostscript && \
+    yum clean all
+
+ADD pdf-extract.sh /opt/
+
+RUN mkdir /files
+VOLUME [ "/files" ]
+
+ENTRYPOINT [ "/opt/pdf-extract.sh" ]

@@ -1,0 +1,12 @@
+FROM ubi8
+
+RUN yum install -y libX11 libXi libXxf86vm libXfixes libXrender libGL && \
+    yum clean all
+
+ADD blender-2.83.3-linux64.tar.xz /opt/
+ADD blender-render.sh /opt/blender-render.sh
+
+RUN mkdir /files
+VOLUME [ "/files" ]
+
+ENTRYPOINT [ "/opt/blender-render.sh" ]

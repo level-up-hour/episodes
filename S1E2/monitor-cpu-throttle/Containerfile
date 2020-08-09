@@ -1,0 +1,20 @@
+FROM ubi8
+
+#may not work at present unless we find the right
+#capabilities to pass to podman when we run this container
+
+#note -- to access the lm_sensors package, you need to build this on
+#subscribed rhel host
+
+RUN yum install -y lm_sensors python3 && \
+    yum clean all
+
+#sourced from:
+#https://github.com/trstringer/linux-core-temperature-monitor
+#but their is no license, as a result, I am pulling it direct
+#which is risky
+
+ADD https://raw.githubusercontent.com/trstringer/linux-core-temperature-monitor/master/app.py /opt/monitor-cpu-throttle.py
+RUN chmod a+x /opt/monitor-cpu-throttle.py
+
+ENTRYPOINT [ "/opt/monitor-cpu-throttle.py" ]
