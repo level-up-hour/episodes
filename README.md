@@ -26,7 +26,7 @@ Episodes:
     * [Episode 2: Helper scripts in containers](S1E2/README.md)
     * [Episode 3: Building the Perfect Tools Container (rhel-tools)](S1E3/README.md)
     * [Episode 4: Building the Perfect Tools Container (support-tools)](S1E4/README.md)
-
+    * [Episode 5: Building the Perfect Tools Container (toolbox)](S1E5/README.md)
 
 
 
