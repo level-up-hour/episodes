@@ -15,6 +15,9 @@ How to participate in the The Level Up Hour:
 We are also offering some programs and support for RHEL Admins who want to get certified with `kubernetes` and `OpenShift`.
 Check out the [details](https://red.ht/leveluphour).
 
+You can also collect Internet Points in various ways with point total updates during the shows.
+Check out the [Activities doc](activities.md) for more details.
+
 # Past Episodes
 
 You can watch the past episodes, read the Show Notes, view any code used/produced, and check out the Video Highlights for each of the past shows.
