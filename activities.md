@@ -9,7 +9,7 @@ If you want a slightly longer explanation, checkout episode [S1E5](S1E5/README.m
 
 We have grand plans for the TLUH Internet Points for the future.
 We would love to be able to award [badges](https://en.wikipedia.org/wiki/Gamification#Badges) and other cool things at some point.
-However, at this point, its just a plan.
+However, at this point, it's just a plan.
 
 Any information we collect as part of collecting points is used purely for the point collection.
 If you have any questions or you want your information removed, please send a note to levelup at redhat.com.
