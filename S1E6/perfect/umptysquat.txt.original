@@ -1,0 +1,5 @@
+FROM registry.redhat.io/rhel8/support-tools
+RUN yum install -y procps which iputils bind-utils && \
+    yum clean all
+
+LABEL RUN <TBD>
