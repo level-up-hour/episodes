@@ -1,0 +1,8 @@
+FROM registry.redhat.io/rhel8/support-tools
+RUN yum install -y procps which iputils bind-utils \
+        less traceroute nmap @python36 && \
+    yum clean all
+
+RUN alternatives --set python /usr/bin/python3
+
+LABEL RUN podman run -it --name NAME --privileged --ipc=host --net=host --pid=host -e HOST=/host -e NAME=NAME -e IMAGE=IMAGE -v /run:/run -v /var/log:/var/log -v /etc/machine-id:/etc/machine-id -v /etc/localtime:/etc/localtime -v /:/host IMAGE
