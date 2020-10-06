@@ -30,6 +30,10 @@ Episodes:
     * [Episode 3: Building the Perfect Tools Container (rhel-tools)](S1E3/README.md)
     * [Episode 4: Building the Perfect Tools Container (support-tools)](S1E4/README.md)
     * [Episode 5: Building the Perfect Tools Container (toolbox)](S1E5/README.md)
+    * [Episode 6: Building the Perfect Tools Container (custom)](S1E6/README.md)
+    * [Episode 7: Podman Pods & Container Distribution](S1E7/README.md)
+    * [Episode 8: Podman Pods & Data Containers](S1E8/README.md)
+    * [Episode 9: Podman Pods and Using CRC as a Registry](S1E9/README.md)
 
 
 
