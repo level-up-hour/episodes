@@ -1,0 +1,84 @@
+# Generation of Kubernetes YAML is still under development!
+#
+# Save the output of this file and use kubectl create -f to import
+# it into Kubernetes.
+#
+# Created with podman-1.9.3
+apiVersion: v1
+kind: Pod
+metadata:
+  creationTimestamp: "2020-09-16T14:25:39Z"
+  labels:
+    app: tools-pod
+  name: tools-pod
+spec:
+  containers:
+  - command:
+    - /bin/bash
+    env:
+    - name: PATH
+      value: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+    - name: TERM
+      value: xterm
+    - name: HOSTNAME
+      value: tools-pod
+    - name: container
+      value: oci
+    image: simpler-tools:latest
+    name: simpler-tools
+    resources: {}
+    securityContext:
+      allowPrivilegeEscalation: true
+      capabilities: {}
+      privileged: false
+      readOnlyRootFilesystem: false
+      seLinuxOptions: {}
+    tty: true
+    volumeMounts:
+    - mountPath: /mnt/data
+      name: home-lwhite-S1E8-pods-data-data
+    - mountPath: /mnt/keys
+      name: home-lwhite-S1E8-pods-data-keys
+    workingDir: /
+  - command:
+    - /bin/bash
+    env:
+    - name: PATH
+      value: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+    - name: TERM
+      value: xterm
+    - name: HOSTNAME
+      value: tools-pod
+    - name: DISTTAG
+      value: f32container
+    - name: container
+      value: oci
+    - name: FGC
+      value: f32
+    image: data-container:latest
+    name: data
+    resources: {}
+    securityContext:
+      allowPrivilegeEscalation: true
+      capabilities: {}
+      privileged: false
+      readOnlyRootFilesystem: false
+      seLinuxOptions: {}
+    tty: true
+    volumeMounts:
+    - mountPath: /mnt/data
+      name: home-lwhite-S1E8-pods-data-data
+    - mountPath: /mnt/keys
+      name: home-lwhite-S1E8-pods-data-keys
+    workingDir: /
+  volumes:
+  - hostPath:
+      path: /home/lwhite/S1E8/pods/data/data
+      type: Directory
+    name: home-lwhite-S1E8-pods-data-data
+  - hostPath:
+      path: /home/lwhite/S1E8/pods/data/keys
+      type: Directory
+    name: home-lwhite-S1E8-pods-data-keys
+status: {}
+
