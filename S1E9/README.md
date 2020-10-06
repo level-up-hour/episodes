@@ -8,7 +8,7 @@ Lastly, let's see if we are convincing you!
 
 ## Details
 * Air Date: Sept. 30, 2020
-* [Watch the episode]() (_NOTE: link may expire, see [openshift.tv](https://openshift.tv) if it does._)
+* [Watch the episode](https://www.twitch.tv/videos/756426645) (_NOTE: link may expire, see [openshift.tv](https://openshift.tv) if it does._)
 * [Show Notes](#show-notes)
 * [Sweet Sweet Internet Points](#sweet-sweet-internet-points)
 * [Video Highlights](#video-highlights)
