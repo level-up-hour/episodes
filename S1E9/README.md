@@ -14,8 +14,6 @@ Lastly, let's see if we are convincing you!
 * [Video Highlights](#video-highlights)
 * [Learn More](https://red.ht/leveluphour)
 
-## Show Notes:
-
 ### Strict Agenda:
 * fix the yaml from the last episode
 * are we convincing you
