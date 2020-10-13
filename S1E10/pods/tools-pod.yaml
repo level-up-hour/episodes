@@ -1,0 +1,70 @@
+# Generation of Kubernetes YAML is still under development!
+#
+# Save the output of this file and use kubectl create -f to import
+# it into Kubernetes.
+#
+# Created with podman-1.9.3
+apiVersion: v1
+kind: Pod
+metadata:
+  creationTimestamp: "2020-10-07T13:17:57Z"
+  labels:
+    app: tools-pod
+  name: tools-pod
+spec:
+  containers:
+  - command:
+    - /bin/bash
+    env:
+    - name: PATH
+      value: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+    - name: TERM
+      value: xterm
+    - name: HOSTNAME
+      value: tools-pod
+    - name: container
+      value: oci
+    - name: DISTTAG
+      value: f32container
+    - name: FGC
+      value: f32
+    image: default-route-openshift-image-registry.apps-crc.testing/tools/data-container
+    name: data
+    resources: {}
+    tty: true
+    volumeMounts:
+    - mountPath: /mnt/data
+      name: pods-data-data
+    - mountPath: /mnt/keys
+      name: pods-data-keys
+    workingDir: /
+  - command:
+    - /bin/bash
+    env:
+    - name: PATH
+      value: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+    - name: TERM
+      value: xterm
+    - name: HOSTNAME
+      value: tools-pod
+    - name: container
+      value: oci
+    image: default-route-openshift-image-registry.apps-crc.testing/tools/simpler-tools
+    name: simpler-tools
+    resources: {}
+    tty: true
+    volumeMounts:
+    - mountPath: /mnt/keys
+      name: pods-data-keys
+    - mountPath: /mnt/data
+      name: pods-data-data
+    workingDir: /
+  volumes:
+  - name: pods-data-keys
+    persistentVolumeClaim:
+      claimName: tools-data-pv-claim
+  - name: pods-data-data
+    persistentVolumeClaim:
+      claimName: tools-data-pv-claim
+status: {}
+
