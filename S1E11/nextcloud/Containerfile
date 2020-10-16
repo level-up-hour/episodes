@@ -1,0 +1,9 @@
+FROM registry.access.redhat.com/ubi8/php-73
+
+USER root
+RUN yum install -y mariadb mariadb-server
+
+ADD nextcloud.conf /etc/httpd/conf.d/nextcloud.conf
+
+USER default
+
