@@ -5,7 +5,7 @@ You know all those helper scripts you have collected over the years? Have you ev
 
 ## Details
 * Air Date: Aug. 5, 2020
-* [Watch the episode](https://www.twitch.tv/videos/701084499) (_NOTE: link may expire on Oct. 4, 2020, see [openshift.tv](https://openshift.tv) if it does._)
+* [Watch the episode](https://youtu.be/tIdM8xDREL0)
 * [Show Notes](#show-notes)
 * [Sweet Sweet Internet Points](#sweet-sweet-internet-points)
 * [Video Highlights](#video-highlights)

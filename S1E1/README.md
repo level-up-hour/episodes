@@ -6,10 +6,7 @@ Learn more at [https://red.ht/leveluphour](https://red.ht/leveluphour)
 
 ## Details
 * Air Date: Jul. 29, 2020
-* [Watch the episode](https://www.twitch.tv/videos/694195886) (_NOTE: link may expire, see [openshift.tv](https://openshift.tv) if it does._)
-
-https://www.twitch.tv/videos/694195886
-
+* [Watch the episode](https://youtu.be/OOWt7-riLCU)
 * [Show Notes](#show-notes)
 * [Sweet Sweet Internet Points](#sweet-sweet-internet-points)
 * [Video Highlights](#video-highlights)

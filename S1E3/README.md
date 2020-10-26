@@ -5,7 +5,7 @@ Have you used the `rhel-tools` container? Come learn about what it is and what y
 
 ## Details
 * Air Date: Aug. 12, 2020
-* [Watch the episode](https://www.twitch.tv/videos/707967384) (_NOTE: link may expire, see [openshift.tv](https://openshift.tv) if it does._)
+* [Watch the episode](https://youtu.be/URxJjnshXxg)
 * [Show Notes](#show-notes)
 * [Sweet Sweet Internet Points](#sweet-sweet-internet-points)
 * [Video Highlights](#video-highlights)

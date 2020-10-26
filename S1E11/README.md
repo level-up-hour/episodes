@@ -1,11 +1,11 @@
 # Season 1 Episode 11:  What's Next and Nextcloud
 
 ## Description:
-Want to discuss what she should do on the show next and, in the meantime, let's get Nextcloud in to OpenShift.
+Want to discuss what we should do on the show next and, in the meantime, let's get Nextcloud in to OpenShift.
 
 ## Details
 * Air Date: Oct. 14, 2020
-* [Watch the episode](https://www.twitch.tv/videos/770075927) (_NOTE: link may expire, see [openshift.tv](https://openshift.tv) if it does._)
+* [Watch the episode](https://youtu.be/Lmcf2CaHUS4)
 * [Show Notes](#show-notes)
 * [Sweet Sweet Internet Points](#sweet-sweet-internet-points)
 * [Video Highlights](#video-highlights)

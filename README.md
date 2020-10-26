@@ -34,6 +34,8 @@ Episodes:
     * [Episode 7: Podman Pods & Container Distribution](S1E7/README.md)
     * [Episode 8: Podman Pods & Data Containers](S1E8/README.md)
     * [Episode 9: Podman Pods and Using CRC as a Registry](S1E9/README.md)
-
+    * [Episode 10: Persistent Volumes, Podman YAML and OpenShift](S1E10/README.md)
+    * [Episode 11: What's Next and Nextcloud](S1E11/README.md)
+    
 
 

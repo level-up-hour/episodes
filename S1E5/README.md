@@ -5,7 +5,7 @@ Have you used the `toolbox` container (formerly fedora-toolbox)? Come learn abou
 
 ## Details
 * Air Date: Aug. 26, 2020
-* [Watch the episode](https://www.twitch.tv/videos/721970103) (_NOTE: link may expire, see [openshift.tv](https://openshift.tv) if it does._)
+* [Watch the episode](https://youtu.be/JP4anzvhdAo)
 * [Show Notes](#show-notes)
 * [Sweet Sweet Internet Points](#sweet-sweet-internet-points)
 * [Video Highlights](#video-highlights)

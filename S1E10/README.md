@@ -7,7 +7,7 @@ However, we first have to figure out Persistent Volumes and Persistent Volume Cl
 
 ## Details
 * Air Date: Oct. 07, 2020
-* [Watch the episode](https://www.twitch.tv/videos/763202795) (_NOTE: link may expire, see [openshift.tv](https://openshift.tv) if it does._)
+* [Watch the episode](https://youtu.be/jw0e0zBcoEs)
 * [Show Notes](#show-notes)
 * [Sweet Sweet Internet Points](#sweet-sweet-internet-points)
 * [Video Highlights](#video-highlights)

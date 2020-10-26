@@ -6,7 +6,7 @@ We have also made various containers, how do we get them around the data center?
 
 ## Details
 * Air Date: Sept. 9, 2020
-* [Watch the episode](https://www.twitch.tv/videos/735953122) (_NOTE: link may expire, see [openshift.tv](https://openshift.tv) if it does._)
+* [Watch the episode](https://youtu.be/GNbdy0KRxEw)
 * [Show Notes](#show-notes)
 * [Sweet Sweet Internet Points](#sweet-sweet-internet-points)
 * [Video Highlights](#video-highlights)

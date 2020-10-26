@@ -5,7 +5,7 @@ Have you used the `support-tools` container? Come learn about it and what you ca
 
 ## Details
 * Air Date: Aug. 19, 2020
-* [Watch the episode](https://www.twitch.tv/videos/714967968) (_NOTE: link may expire, see [openshift.tv](https://openshift.tv) if it does._)
+* [Watch the episode](https://youtu.be/44wo1Dvg5EY)
 * [Show Notes](#show-notes)
 * [Sweet Sweet Internet Points](#sweet-sweet-internet-points)
 * [Video Highlights](#video-highlights)
