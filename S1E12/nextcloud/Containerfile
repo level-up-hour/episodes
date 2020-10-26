@@ -1,0 +1,15 @@
+FROM registry.access.redhat.com/ubi8
+
+USER root
+RUN yum install -y mariadb mariadb-server httpd php
+
+ADD nextcloud.conf /etc/httpd/conf.d/nextcloud.conf
+RUN systemctl enable mariadb httpd
+
+EXPOSE 80
+EXPOSE 443
+
+#USER default
+
+CMD [ "/sbin/init" ]
+
