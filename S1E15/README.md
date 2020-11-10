@@ -18,13 +18,17 @@ Let's continue working on Nextcloud on OpenShift
 * [Podman Troubleshooting Guide](https://github.com/containers/podman/blob/master/troubleshooting.md)
 * zips and tars in Containerfiles
 * directory creation using volume mounts
-
+* fedora upgrades
+  * sudo dnf install dnf-plugin-system-upgrade
+  * sudo dnf system-upgrade download --refresh --releasever=33
 
 ### Show Recap
 
 ## Further Reading
 
 If you want to know more about anything that came up in the show, here are some links to get you started.
+
+* [DNF System Upgrade](https://docs.fedoraproject.org/en-US/quick-docs/dnf-system-upgrade/)
 
 ## Sweet Sweet Internet Points
 
