@@ -1,0 +1,8 @@
+FROM ubi8
+RUN dnf -y install httpd mariadb-server; dnf clean all
+RUN systemctl enable httpd mariadb
+
+EXPOSE 80
+
+CMD [ "/sbin/init" ]
+

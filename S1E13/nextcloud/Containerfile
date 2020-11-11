@@ -1,0 +1,24 @@
+FROM registry.access.redhat.com/ubi8
+
+USER root
+RUN yum install -y mariadb mariadb-server httpd php procps less iproute && \
+	yum clean all
+
+ADD nextcloud.conf /etc/httpd/conf.d/nextcloud.conf
+ADD nextcloud-20.0.1.tar.bz2 /var/www/
+RUN mkdir /var/www/nextcloud/data
+RUN chown -R apache:apache /var/www/
+
+RUN systemctl enable mariadb httpd
+
+VOLUME /var/www/nextcloud/data
+#EXPOSE 8080
+#EXPOSE 8443
+
+EXPOSE 80
+EXPOSE 443
+
+#USER default
+
+CMD [ "/sbin/init" ]
+
