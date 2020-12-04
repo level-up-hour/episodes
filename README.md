@@ -40,3 +40,9 @@ Episodes:
   * [Episode 10: Persistent Volumes, Podman YAML and OpenShift](S1E10/README.md)
   * [Episode 11: What's Next and Nextcloud](S1E11/README.md)
   * [Episode 12: More on Nextcloud, systemd in a container](S1E12/README.md)
+  * [Episode 13: More on Nextcloud](S1E13/README.md)
+  * [Episode 14: When to Orchestrate w/ Scott McBrien](S1E14/README.md)
+  * [Episode 15: KubeCon NA & Nextcloud](S1E15/README.md)
+  * [Episode 16: Erik Jacobs, Turkeys, and OpenShift w/ AI/ML](S1E16/README.md)
+  * [Episode 17: Making a UBI-based image build resilient](S1E17/README.md)
+  
