@@ -1,0 +1,30 @@
+FROM registry.access.redhat.com/ubi8/ubi:latest
+
+ENV OCPVERSION="4.6.4"
+
+ENV OCPRHCOSVERSION="4.6.1"
+
+ENV HELPERNODEVERSION="v2alpha1"
+
+#COPY files/CentOS.repo /etc/yum.repos.d/
+
+RUN yum install -y http://mirror.centos.org/centos/8/BaseOS/x86_64/os/Packages/centos-repos-8.2-2.2004.0.1.el8.x86_64.rpm http://mirror.centos.org/centos/8/BaseOS/x86_64/os/Packages/centos-gpg-keys-8.2-2.2004.0.1.el8.noarch.rpm && \
+	yum clean all
+
+RUN echo "priority=150" >> /etc/yum.repos.d/CentOS-Base.repo
+
+RUN dnf -y install dhcp-server jq python3-pip && \
+	dnf clean all
+
+#RUN pip3 install ansible
+
+#COPY files/dhcpd.conf.j2 /usr/local/src/
+
+#COPY scripts/startup.sh /usr/local/bin/
+
+#EXPOSE 67/udp
+
+#RUN rm -f /etc/yum.repos.d/CentOS.repo
+
+#ENTRYPOINT ["/usr/local/bin/startup.sh"]
+
