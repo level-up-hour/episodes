@@ -45,4 +45,7 @@ Episodes:
   * [Episode 15: KubeCon NA & Nextcloud](S1E15/README.md)
   * [Episode 16: Erik Jacobs, Turkeys, and OpenShift w/ AI/ML](S1E16/README.md)
   * [Episode 17: Making a UBI-based image build resilient](S1E17/README.md)
+  * [Episode 18: Nextcloud in OpenShift](S1E18/README.md)
+  <!-- * [Episode 19: Containers, Data Science and Replication](S1E19/README.md) -->
+  <!-- * [Episode 20: Kubernetes and Docker Deprecation](S1E20/README.md) -->
   
