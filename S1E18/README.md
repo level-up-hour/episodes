@@ -9,7 +9,7 @@ However, this episode will be about deploying those containers in OpenShift.
 ## Details
 
 * Air Date: Dec. 9, 2020
-* [Watch the episode](https://youtu.be/YD1R0ROoJJA)
+* [Watch the episode](https://youtu.be/tP5JE_qViNA)
 * [Show Notes](#show-notes)
 * [Sweet, Sweet Internet Points](#sweet-sweet-internet-points)
 * [Video Highlights](#video-highlights)
