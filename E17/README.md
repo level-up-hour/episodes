@@ -1,4 +1,4 @@
-# Season 1 Episode 17: Making a UBI-based image build resilient
+# Episode 17: Making a UBI-based image build resilient
 
 ## Description
 
@@ -21,7 +21,7 @@ Let's take a look at a UBI-based container and see how we can be sure it can bui
 
 We start with some housekeeping notes, both literal and figurative.
 
-[TLUH S1E17: How to Boaty McBoatface your decor](https://clips.twitch.tv/SillyDeadDurianANELE)
+[TLUH E17: How to Boaty McBoatface your decor](https://clips.twitch.tv/SillyDeadDurianANELE)
 
 We talk a bit about AI/ML and science Reproducibility.
 However, we mostly focus on an agenda and discussion about the plan for episode 19 and [@cleverbeard](https://twitter.com/cleverbeard) joining us to discuss some work he has done in this space.
@@ -110,4 +110,4 @@ If you have any questions about the points, find us on [discord](https://discord
 
 ## Video Highlights
 
-* [TLUH S1E17: How to Boaty McBoatface your decor](https://clips.twitch.tv/SillyDeadDurianANELE)
+* [TLUH E17: How to Boaty McBoatface your decor](https://clips.twitch.tv/SillyDeadDurianANELE)

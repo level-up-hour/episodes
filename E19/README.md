@@ -1,4 +1,4 @@
-# Season 1 Episode 19: Containers, Data Science and Replication
+# Episode 19: Containers, Data Science and Replication
 
 ## Description
 
@@ -90,7 +90,7 @@ Chris brings up DeepMind and some recent results they have had regarding protein
 Langdon mentions that an "amateur scientist" had actually won some prizes for protein folding who was under 18.
 Langdon also talks a bit about Tiling and an amateur mathematician.
 
-[TLUH S1E19: Shapes on a Plane!](https://clips.twitch.tv/EnchantingSolidPheasantCmonBruh)
+[TLUH E19: Shapes on a Plane!](https://clips.twitch.tv/EnchantingSolidPheasantCmonBruh)
 
 Matt proceeds to talk about lowering the barrier of entry to science in general.
 He particularly points out kaggle and the good work and community they have built.
@@ -148,4 +148,4 @@ If you have any questions about the points, find us on [discord](https://discord
 
 ## Video Highlights
 
-* [TLUH S1E19: Shapes on a Plane!](https://clips.twitch.tv/EnchantingSolidPheasantCmonBruh)
+* [TLUH E19: Shapes on a Plane!](https://clips.twitch.tv/EnchantingSolidPheasantCmonBruh)

@@ -36,9 +36,9 @@ spec:
     tty: true
     volumeMounts:
     - mountPath: /mnt/keys
-      name: home-lwhite-S1E9-pods-data-keys
+      name: home-lwhite-E9-pods-data-keys
     - mountPath: /mnt/data
-      name: home-lwhite-S1E9-pods-data-data
+      name: home-lwhite-E9-pods-data-data
     workingDir: /
   - command:
     - /bin/bash
@@ -67,18 +67,18 @@ spec:
     tty: true
     volumeMounts:
     - mountPath: /mnt/data
-      name: home-lwhite-S1E9-pods-data-data
+      name: home-lwhite-E9-pods-data-data
     - mountPath: /mnt/keys
-      name: home-lwhite-S1E9-pods-data-keys
+      name: home-lwhite-E9-pods-data-keys
     workingDir: /
   volumes:
   - hostPath:
-      path: /home/lwhite/S1E9/pods/data/keys
+      path: /home/lwhite/E9/pods/data/keys
       type: Directory
-    name: home-lwhite-S1E9-pods-data-keys
+    name: home-lwhite-E9-pods-data-keys
   - hostPath:
-      path: /home/lwhite/S1E9/pods/data/data
+      path: /home/lwhite/E9/pods/data/data
       type: Directory
-    name: home-lwhite-S1E9-pods-data-data
+    name: home-lwhite-E9-pods-data-data
 status: {}
 

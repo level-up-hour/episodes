@@ -1,4 +1,4 @@
-# Season 1 Episode 2: Helper scripts in containers
+# Episode 2: Helper scripts in containers
 
 ## Description:
 You know all those helper scripts you have collected over the years? Have you ever had trouble with using them across RHEL versions? Getting the deps installed without messing up the machine? Well, a container can be a big help.

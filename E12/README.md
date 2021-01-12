@@ -1,4 +1,4 @@
-# Season 1 Episode 12: More on Nextcloud, systemd in a container
+# Episode 12: More on Nextcloud, systemd in a container
 
 ## Description
 
@@ -24,7 +24,7 @@ However, as part of this, let's use systemd in our container for our services.
 We start the show with some trouble.
 Having trouble with coffee and the mechnics of live streaming.
 
-[TLUH S1E12: First stream of the day and coffee challenges!](https://clips.twitch.tv/DeafNaiveGuanacoCharlietheUnicorn)
+[TLUH E12: First stream of the day and coffee challenges!](https://clips.twitch.tv/DeafNaiveGuanacoCharlietheUnicorn)
 
 [KubeCon NA](https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/) coming up on Nov. 17-20.
 
@@ -128,4 +128,4 @@ If you have any questions about the points, find us on [discord](https://discord
 
 ## Video Highlights
 
-* [TLUH S1E12: First stream of the day and coffee challenges!](https://clips.twitch.tv/DeafNaiveGuanacoCharlietheUnicorn)
+* [TLUH E12: First stream of the day and coffee challenges!](https://clips.twitch.tv/DeafNaiveGuanacoCharlietheUnicorn)

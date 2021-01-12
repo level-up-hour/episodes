@@ -1,4 +1,4 @@
-# Season 1 Episode XX: <Title>
+# Episode XX: <Title>
 
 ## Description
 

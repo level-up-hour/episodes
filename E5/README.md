@@ -1,4 +1,4 @@
-# Season 1 Episode 5: Building the Perfect Tools Container (toolbox)
+# Episode 5: Building the Perfect Tools Container (toolbox)
 
 ## Description:
 Have you used the `toolbox` container (formerly fedora-toolbox)? Come learn about it and what you can use it for.
@@ -20,24 +20,24 @@ Have you used the `toolbox` container (formerly fedora-toolbox)? Come learn abou
 ### Show Recap:
 We set the stage with a little bit from last week's episode.
 We discussed support-tools and where to find more information.
-Remember, as always, you can check out the [show notes](../S1E4/README.md) from last week's episode for a bibliography to learn more about a topic.
+Remember, as always, you can check out the [show notes](../E4/README.md) from last week's episode for a bibliography to learn more about a topic.
 
 We then talked a little bit about brand and our slides.
 Including a quick shout out to the Red Hat Team & [MCKL (a design studio)](https://mckltype.com/about/) that designed two new, open source fonts.
 If you want to check them out they are downloadable at [Red Hat Display](https://fonts.google.com/specimen/Red+Hat+Display) and [Red Hat Text](https://fonts.google.com/specimen/Red+Hat+Text).
 You can also check out the [upstream](https://github.com/RedHatOfficial/RedHatFont).
 
-[TLUH S1E5: New Open Source Red Hat Fonts!](https://clips.twitch.tv/PlausibleStylishJaguarDendiFace)
+[TLUH E5: New Open Source Red Hat Fonts!](https://clips.twitch.tv/PlausibleStylishJaguarDendiFace)
 
 We talked a bit about where to find us.
 And, puzzle-ception!
 
-[TLUH S1E5: Puzzle-ception!](https://clips.twitch.tv/ObliviousTrustworthyBillLitty)
+[TLUH E5: Puzzle-ception!](https://clips.twitch.tv/ObliviousTrustworthyBillLitty)
 
 A little history on containers including rkt and systemd-nspawn.
 systemd-nspawn was a thing by at least 2013, as evidenced by a [HOWTO on LWN](https://lwn.net/Articles/572957/) the year [moby (nee docker) debuted](https://en.wikipedia.org/wiki/Docker_(software)#History).
 
-[TLUH S1E5: Some history (rkt & nspawn)](https://clips.twitch.tv/DistinctBitterUdonM4xHeh)
+[TLUH E5: Some history (rkt & nspawn)](https://clips.twitch.tv/DistinctBitterUdonM4xHeh)
 
 We also talked about containers that launch on boot.
 In order to use containers early in the boot process, you can't use docker because the background process hasn't launched.
@@ -47,7 +47,7 @@ In short, podman is a wrapper around buildah and skopeo.
 We then digressed in to a discussion of Podman the  Rapper.
 With comparisons to [Run DMC](https://www.rundmc.com/) and [PaRappa the Rapper](https://en.wikipedia.org/wiki/PaRappa_the_Rapper).
 
-[TLUH S1E5: Podman the Rapper](https://clips.twitch.tv/FamousMistyFoxKappaRoss)
+[TLUH E5: Podman the Rapper](https://clips.twitch.tv/FamousMistyFoxKappaRoss)
 
 Discussed a bit about "bundling" and "vendoring" and using vagrant as an example.
 If you haven't used vagrant, you should definitely [check it out](https://vagrantup.com).
@@ -71,7 +71,7 @@ We proceed to show my ansible playbook(s) for creating my custom `toolbox`.
 As an interlude, we briefly discuss my directory naming conventions.
 I also pointed out two of my favorite tools: [`howdoi`](https://github.com/gleitz/howdoi) & [taskwarrior](https://taskwarrior.org/).
 
-[TLUH S1E5: dash stuff](https://clips.twitch.tv/SecretiveDependableMoonTriHard)
+[TLUH E5: dash stuff](https://clips.twitch.tv/SecretiveDependableMoonTriHard)
 
 With my ansible playbooks, I talk about how they have a bit of a "[DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)" problem.
 Follow the link if you are unfamiliar with this term or want to learn more.
@@ -107,8 +107,8 @@ However, those points are manually added by the admins.
 If you have any questions about the points, find us on [discord](https://discord.gg/5VMVGJt).
 
 ## Video Highlights:
-* [TLUH S1E5: New Open Source Red Hat Fonts!](https://clips.twitch.tv/PlausibleStylishJaguarDendiFace)
-* [TLUH S1E5: Puzzle-ception!](https://clips.twitch.tv/ObliviousTrustworthyBillLitty)
-* [TLUH S1E5: Some history (rkt & nspawn)](https://clips.twitch.tv/DistinctBitterUdonM4xHeh)
-* [TLUH S1E5: Podman the Rapper](https://clips.twitch.tv/FamousMistyFoxKappaRoss)
-* [TLUH S1E5: dash stuff](https://clips.twitch.tv/SecretiveDependableMoonTriHard)
+* [TLUH E5: New Open Source Red Hat Fonts!](https://clips.twitch.tv/PlausibleStylishJaguarDendiFace)
+* [TLUH E5: Puzzle-ception!](https://clips.twitch.tv/ObliviousTrustworthyBillLitty)
+* [TLUH E5: Some history (rkt & nspawn)](https://clips.twitch.tv/DistinctBitterUdonM4xHeh)
+* [TLUH E5: Podman the Rapper](https://clips.twitch.tv/FamousMistyFoxKappaRoss)
+* [TLUH E5: dash stuff](https://clips.twitch.tv/SecretiveDependableMoonTriHard)

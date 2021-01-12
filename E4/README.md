@@ -1,4 +1,4 @@
-# Season 1 Episode 4: Building the Perfect Tools Container (support-tools)
+# Episode 4: Building the Perfect Tools Container (support-tools)
 
 ## Description:
 Have you used the `support-tools` container? Come learn about it and what you can use it for.
@@ -24,7 +24,7 @@ We opened talking about KubeCon EU (technically, [KubeCon & CloudNative Con Euro
 Mentioned a couple of interesting talks we had seen and noted, in particular, that it is the 5 year birthday of [OCI](https://opencontainers.org/)!
 Couple of Red Hatters, [Sally O'Malley](https://twitter.com/somalley108) and [Urvashi Mohnani](https://twitter.com/umohnani8) gave a [keynote](https://kccnceu20.sched.com/event/ZfHO/sponsored-keynote-happy-birthday-open-container-initiative-heres-to-5-years-of-collaborative-innovation-sally-ann-omalley-software-engineer-urvashi-mohnani-software-engineer-red-hat?iframe=no) about it.
 
-[TLUH S1E4: Talking about KubeCon EU '20](https://clips.twitch.tv/StrongCrunchySamosaMcaT)
+[TLUH E4: Talking about KubeCon EU '20](https://clips.twitch.tv/StrongCrunchySamosaMcaT)
 
 I talked a bit about moving an application from a VM or physical machine in to containers and OpenShift.
 I developed a lab for Summit about the same subject.
@@ -35,7 +35,7 @@ So if you want to see it, go to [the site](https://onlinexperiences.com/scripts/
 
 We talked about the t-shirts we are wearing and that we should have some ones coming out for the show soon!
 
-[TLUH S1E4: T-Shirts!](https://clips.twitch.tv/TiredMagnificentAxeRitzMitz)
+[TLUH E4: T-Shirts!](https://clips.twitch.tv/TiredMagnificentAxeRitzMitz)
 
 Discussed the separate storage areas for different users.
 While this makes sense for them to be separate, if you use sudo a lot, you can easily make a mistake about which local container registry or container runtime you are using.
@@ -46,7 +46,7 @@ If you need a subscription for Red Hat products for your development use, you sh
 We continue to be challenged by `podman inspect` but we finally got it.
 You need to be sure to use two sets of squiggly brackets (`{}`) and `"`.
 
-[TLUH S1E4: More fighting with podman inspect](https://clips.twitch.tv/SweetGrotesqueHummingbirdWow)
+[TLUH E4: More fighting with podman inspect](https://clips.twitch.tv/SweetGrotesqueHummingbirdWow)
 
 We also talked about the original "container method": chroot.
 We also discussed building RPMs in container with mock.
@@ -67,12 +67,12 @@ Someone else also suggested we could have used `echo $!` which will print the la
 We talked a bit about strace and why it is a good thing to learn.
 Chris recommended checking out a talk: [GopherCon 2017: Liz Rice - A Go Programmer's Guide to Syscalls](http://www.everysession.com/gophercon/gophercon-us/2017/gophercon-2017-liz-rice-a-go-programmers-guide-to-syscalls/) even if you aren't a go programmer.
 
-[TLUH S1E4: strace is your friend](https://clips.twitch.tv/HappyAwkwardEndiveHeyGirl)
+[TLUH E4: strace is your friend](https://clips.twitch.tv/HappyAwkwardEndiveHeyGirl)
 
 Telnet is included in the support-tools container.
 And, in case your forgot, `^]` is how you escape from telnet.
 
-[TLUH S1E4: Why you need telnet](https://clips.twitch.tv/SoftMoldyCockroachFailFish)
+[TLUH E4: Why you need telnet](https://clips.twitch.tv/SoftMoldyCockroachFailFish)
 
 We went on to discuss the discounts, exams, and classes that you might want to check out to become a Kubernetes or OpenShift admin.
 You can find all the details on [The Level Up Hour page](https://red.ht/leveluphour).
@@ -101,8 +101,8 @@ However, those points are manually added by the admins.
 If you have any questions about the points, find us on [discord](https://discord.gg/5VMVGJt).
 
 ## Video Highlights:
-* [TLUH S1E4: Talking about KubeCon EU '20](https://clips.twitch.tv/StrongCrunchySamosaMcaT)
-* [TLUH S1E4: T-Shirts!](https://clips.twitch.tv/TiredMagnificentAxeRitzMitz)
-* [TLUH S1E4: More fighting with podman inspect](https://clips.twitch.tv/SweetGrotesqueHummingbirdWow)
-* [TLUH S1E4: strace is your friend](https://clips.twitch.tv/HappyAwkwardEndiveHeyGirl)
-* [TLUH S1E4: Why you need telnet](https://clips.twitch.tv/SoftMoldyCockroachFailFish)
+* [TLUH E4: Talking about KubeCon EU '20](https://clips.twitch.tv/StrongCrunchySamosaMcaT)
+* [TLUH E4: T-Shirts!](https://clips.twitch.tv/TiredMagnificentAxeRitzMitz)
+* [TLUH E4: More fighting with podman inspect](https://clips.twitch.tv/SweetGrotesqueHummingbirdWow)
+* [TLUH E4: strace is your friend](https://clips.twitch.tv/HappyAwkwardEndiveHeyGirl)
+* [TLUH E4: Why you need telnet](https://clips.twitch.tv/SoftMoldyCockroachFailFish)

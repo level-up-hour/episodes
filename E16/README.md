@@ -1,4 +1,4 @@
-# Season 1 Episode 16: Erik Jacobs, Turkeys, and OpenShift w/ AI/ML
+# Episode 16: Erik Jacobs, Turkeys, and OpenShift w/ AI/ML
 
 ## Description
 
@@ -22,11 +22,11 @@ Let's talk to Erik Jacobs, a TMM who specializes in AI/ML on Openshift.
 
 What's the story with the hat?
 
-[TLUH S1E16: The Hat](https://clips.twitch.tv/OpenFrailCrowSquadGoals)
+[TLUH E16: The Hat](https://clips.twitch.tv/OpenFrailCrowSquadGoals)
 
 We move on to the major issue of Sweet Potatoes & Marshmallows vs Sweet Potatoes, Marshmallows, & Pineapple vs Sweet Potato Casserole.
 
-[TLUH S1E16: The "yes/no of nerdtree" of the Thanksgiving world](https://clips.twitch.tv/ChillyImpossibleAlmondANELE)
+[TLUH E16: The "yes/no of nerdtree" of the Thanksgiving world](https://clips.twitch.tv/ChillyImpossibleAlmondANELE)
 
 We finally get to some technical content and start talking about virt-manager.
 Nothing against this particular piece of software but we discuss how hard it is to move a VM from one machine to another.
@@ -103,5 +103,5 @@ If you have any questions about the points, find us on [discord](https://discord
 
 ## Video Highlights
 
-* [TLUH S1E16: The Hat](https://clips.twitch.tv/OpenFrailCrowSquadGoals)
-* [TLUH S1E16: The "yes/no of nerdtree" of the Thanksgiving world](https://clips.twitch.tv/ChillyImpossibleAlmondANELE)
+* [TLUH E16: The Hat](https://clips.twitch.tv/OpenFrailCrowSquadGoals)
+* [TLUH E16: The "yes/no of nerdtree" of the Thanksgiving world](https://clips.twitch.tv/ChillyImpossibleAlmondANELE)

@@ -1,4 +1,4 @@
-# Season 1 Episode 13: More on Nextcloud
+# Episode 13: More on Nextcloud
 
 ## Description
 

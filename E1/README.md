@@ -1,4 +1,4 @@
-# Season 1 Episode 1: What's TLUH & Quick Container Apps
+# Episode 1: What's TLUH & Quick Container Apps
 
 Come join us as we kickoff TLUH! Wait, what's TLUH? Well, you have to come by to find out :). We will also demonstrate using a bunch of system tools within containers so you don't have to install everything locally.
 

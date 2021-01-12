@@ -1,4 +1,4 @@
-# Season 1 Episode 9: Podman Pods and Using CRC as a Registry
+# Episode 9: Podman Pods and Using CRC as a Registry
 
 ## Description:
 
@@ -38,7 +38,7 @@ As an interlude, Chris got an answer about windows worker nodes.
 We should see community versions in October with a released version towards the end of the year or early next.
 We were collectively surprised by the rapidity and definitiveness.
 
-[TLUH S1E9: We are surprised by Windows Nodes](https://clips.twitch.tv/TallBrainyVelociraptorThisIsSparta)
+[TLUH E9: We are surprised by Windows Nodes](https://clips.twitch.tv/TallBrainyVelociraptorThisIsSparta)
 
 We then generate our yaml using `podman generate kube > tools-pod.yaml`.
 We proceed to edit the yaml file to remove the tags which were causing failures in the last episode.
@@ -108,4 +108,4 @@ However, those points are manually added by the admins.
 If you have any questions about the points, find us on [discord](https://discord.gg/5VMVGJt) and ways [to collect them](../activities.md).
 
 ## Video Highlights:
-* [TLUH S1E9: We are surprised by Windows Nodes](https://clips.twitch.tv/TallBrainyVelociraptorThisIsSparta)
+* [TLUH E9: We are surprised by Windows Nodes](https://clips.twitch.tv/TallBrainyVelociraptorThisIsSparta)

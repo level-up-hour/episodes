@@ -1,4 +1,4 @@
-# Season 1 Episode 15: KubeCon NA & Nextcloud
+# Episode 15: KubeCon NA & Nextcloud
 
 ## Description
 
@@ -63,7 +63,7 @@ We moved on to talk about the Nextcloud container content that nlhacm submitted.
 However, we are distracted by bugs in bugzilla and an audience member's claim that they have "the most bugs."
 We find this hard to believe.
 
-[TLUH S1E15: bugs](https://clips.twitch.tv/FreezingTubularChimpanzeeDxCat)
+[TLUH E15: bugs](https://clips.twitch.tv/FreezingTubularChimpanzeeDxCat)
 
 We move on to a discussion of ubi8 and ubi8-minimal.
 Langdon will definitely be using ubi8-minimal more often in the future.
@@ -109,4 +109,4 @@ If you have any questions about the points, find us on [discord](https://discord
 
 ## Video Highlights
 
-* [TLUH S1E15: bugs](https://clips.twitch.tv/FreezingTubularChimpanzeeDxCat)
+* [TLUH E15: bugs](https://clips.twitch.tv/FreezingTubularChimpanzeeDxCat)

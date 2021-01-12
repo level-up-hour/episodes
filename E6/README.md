@@ -1,4 +1,4 @@
-# Season 1 Episode 6: Building the Perfect Tools Container (custom)
+# Episode 6: Building the Perfect Tools Container (custom)
 
 ## Description:
 OK, we have now toured a bunch of the tools containers from other people. Let's build our own. We need you to help, in the chat, tell us what our "must haves" are!
@@ -22,7 +22,7 @@ OK, we have now toured a bunch of the tools containers from other people. Let's 
 When I was preparing for this episode of the show, I discovered that my demo RHEL system had become unsubscribed.
 I got a little panicky.
 
-[TLUH S1E6: Langdon has a small panic attack](https://clips.twitch.tv/ToughShyHareTooSpicy)
+[TLUH E6: Langdon has a small panic attack](https://clips.twitch.tv/ToughShyHareTooSpicy)
 
 Eventually, I discovered that my free [Red Hat Developer Subscription](https://developers.redhat.com/articles/getting-red-hat-developer-subscription-what-rhel-users-need-know) had expired.
 I then showed the steps to renew it and make everything work again.
@@ -37,13 +37,13 @@ Basically, you can use it anywhere you are doing development but, you should che
 I went on to discuss dockah & Dan Walsh.
 Chris offers to drive the cost of the website down to 0.
 
-[TLUH S1E6: North Shore & Dockah](https://clips.twitch.tv/GloriousPreciousMilkKippa)
+[TLUH E6: North Shore & Dockah](https://clips.twitch.tv/GloriousPreciousMilkKippa)
 
 Finally, we move to a discussion of creating the "perfect" tools container.
 To start off with we discuss using `umptysquat.txt` as the name of the `Containerfile` because it came up last week.
 If you are interested in actually trying to integrate `umptysquat.txt` as a default filename, it looks like it would go [here](https://github.com/containers/buildah/blob/e5798210824b1631c7c6cbae56b1e79241468795/cmd/buildah/bud.go).
 
-[TLUH S1E6: umptysquat.txt](https://clips.twitch.tv/YawningTransparentArmadilloDoritosChip)
+[TLUH E6: umptysquat.txt](https://clips.twitch.tv/YawningTransparentArmadilloDoritosChip)
 
 Next, I demonstrate a basic "perfect tools" container and ask for feedback.
 Some ideas that came up were adding nmap & traceroute.
@@ -84,7 +84,7 @@ Unfortunately, it isn't immediately obvious how to do this non-interactively.
 We found some ways to do it with some google-fu.
 However, it is kinda yucky.
 
-[TLUH S1E6: Super icky non-interactive tricks](https://clips.twitch.tv/DepressedAggressiveWolverineTheRinger)
+[TLUH E6: Super icky non-interactive tricks](https://clips.twitch.tv/DepressedAggressiveWolverineTheRinger)
 
 
 After a wee bit of research, you can use `--set` with the "thing" and the "target".
@@ -123,7 +123,7 @@ However, those points are manually added by the admins.
 If you have any questions about the points, find us on [discord](https://discord.gg/5VMVGJt) and ways [to collect them](../activities.md).
 
 ## Video Highlights:
-* [TLUH S1E6: Langdon has a small panic attack](https://clips.twitch.tv/ToughShyHareTooSpicy)
-* [TLUH S1E6: North Shore & Dockah](https://clips.twitch.tv/GloriousPreciousMilkKippa)
-* [TLUH S1E6: umptysquat.txt](https://clips.twitch.tv/YawningTransparentArmadilloDoritosChip)
-* [TLUH S1E6: Super icky non-interactive tricks](https://clips.twitch.tv/DepressedAggressiveWolverineTheRinger)
+* [TLUH E6: Langdon has a small panic attack](https://clips.twitch.tv/ToughShyHareTooSpicy)
+* [TLUH E6: North Shore & Dockah](https://clips.twitch.tv/GloriousPreciousMilkKippa)
+* [TLUH E6: umptysquat.txt](https://clips.twitch.tv/YawningTransparentArmadilloDoritosChip)
+* [TLUH E6: Super icky non-interactive tricks](https://clips.twitch.tv/DepressedAggressiveWolverineTheRinger)

@@ -1,4 +1,4 @@
-# Season 1 Episode 7: Podman Pods & Container Distribution
+# Episode 7: Podman Pods & Container Distribution
 
 ## Description:
 We now have some containers but what if we want them to work together. A classic example is a data container and a function container.
@@ -23,7 +23,7 @@ We have also made various containers, how do we get them around the data center?
 We briefly discussed [TechTogether](https://boston.techtogether.io/), Pre-Hacks (a prep for TechTogether), [DevConf.US](https://devconf.us), and [envoycon](https://events.linuxfoundation.org/envoycon/).
 Moved on to discuss ghost buses and public transit.
 
-[TLUH S1E7: Arghh, Ghost Bus!](https://clips.twitch.tv/ColdbloodedCharmingFennelShadyLulu)
+[TLUH E7: Arghh, Ghost Bus!](https://clips.twitch.tv/ColdbloodedCharmingFennelShadyLulu)
 
 We moved on to talk about some of the new shows coming up on
 [openshift.tv](https://openshift.tv).
@@ -46,7 +46,7 @@ Specifically, we needed to add `registry.fedoraproject.org` to the `[registries.
 
 A small digression in to a discussion of Kool-Aid and [playing hide and seek](https://www.youtube.com/watch?v=1KoH07ewMHw).
 
-[TLUH S1E7: Kool-Aid!](https://clips.twitch.tv/PreciousTiredGarageAsianGlow)
+[TLUH E7: Kool-Aid!](https://clips.twitch.tv/PreciousTiredGarageAsianGlow)
 
 We move on in to more details on how the registry search works.
 Basically, the order of the registries indicates priority.
@@ -61,7 +61,7 @@ As we are discussing registries, we walk through the usage of [docker hub](https
 However, you can usually trust anything in the "`_`" namespace as they are provided by docker (the company) directly.
 We then move on to a discussion of quay.io and start with pronunciation.
 
-[TLUH S1E7: Quays and Machetes](https://clips.twitch.tv/ProtectiveWanderingBeeNerfRedBlaster)
+[TLUH E7: Quays and Machetes](https://clips.twitch.tv/ProtectiveWanderingBeeNerfRedBlaster)
 
 We then move on to talk about how you can use the various online container registries and the associated Containerfiles as a starting point for the containers you want build.
 
@@ -99,6 +99,6 @@ However, those points are manually added by the admins.
 If you have any questions about the points, find us on [discord](https://discord.gg/5VMVGJt) and ways [to collect them](../activities.md).
 
 ## Video Highlights:
-* [TLUH S1E7: Arghh, Ghost Bus!](https://clips.twitch.tv/ColdbloodedCharmingFennelShadyLulu)
-* [TLUH S1E7: Kool-Aid!](https://clips.twitch.tv/PreciousTiredGarageAsianGlow)
-* [TLUH S1E7: Quays and Machetes](https://clips.twitch.tv/ProtectiveWanderingBeeNerfRedBlaster)
+* [TLUH E7: Arghh, Ghost Bus!](https://clips.twitch.tv/ColdbloodedCharmingFennelShadyLulu)
+* [TLUH E7: Kool-Aid!](https://clips.twitch.tv/PreciousTiredGarageAsianGlow)
+* [TLUH E7: Quays and Machetes](https://clips.twitch.tv/ProtectiveWanderingBeeNerfRedBlaster)

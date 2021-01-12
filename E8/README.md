@@ -1,4 +1,4 @@
-# Season 1 Episode 8: Podman Pods & Data Containers
+# Episode 8: Podman Pods & Data Containers
 
 ## Description:
 
@@ -20,7 +20,7 @@
 Talked about [https://devconf.us](https://devconf.us) and why you might want to go.
 If you missed it, the next one is [https://devconf.cz](https://devconf.cz) in February, 2021.
 
-[TLUH S1E8: DevConf.US Overview](https://clips.twitch.tv/ResilientWittyRamenSMOrc)
+[TLUH E8: DevConf.US Overview](https://clips.twitch.tv/ResilientWittyRamenSMOrc)
 
 We discussed why there are so many `man` page websites.
 I don't think we came to a conclusion.
@@ -35,7 +35,7 @@ A bit of discussion why you would choose to create a container that just wraps a
 The primary reason is so you are not surprised by updates.
 However, it also makes later extensibility easier.
 
-[TLUH S1E8: Wrapper container](https://clips.twitch.tv/ArbitraryAliveTitanOSsloth)
+[TLUH E8: Wrapper container](https://clips.twitch.tv/ArbitraryAliveTitanOSsloth)
 
 We go on to build our simple support-tools container.
 We also point out how the namespacing of container images works.
@@ -50,7 +50,7 @@ We move on to discuss `data containers`.
 Data Containers are handy because they can help redirect your storage layer.
 You could consider putting functionality in your data container for doing backups or pushing to remote repos.
 
-[TLUH S1E8: Why data containers?](https://clips.twitch.tv/OnerousBoredMomFunRun)
+[TLUH E8: Why data containers?](https://clips.twitch.tv/OnerousBoredMomFunRun)
 
 Another note on caching, just because you change the name of the `container image` when you build it this does not mean that the cache will be bypassed.
 The container builder is smart enough to still use the same cache no matter what name you provide for the image.
@@ -65,11 +65,11 @@ We then verify that the volumes have been mounted, in an editable way, inside th
 Now we need to leave the container to launch the next one.
 However, when we exit the container we use `ctrl-p`, `ctrl-q` to leave the container without stopping it.
 
-[TLUH S1E8: How to get out of a container!](https://clips.twitch.tv/IgnorantCooperativeLemurAliens)
+[TLUH E8: How to get out of a container!](https://clips.twitch.tv/IgnorantCooperativeLemurAliens)
 
 A little sidebar about typing classes.
 
-[TLUH S1E8: Why Langdon can't type](https://clips.twitch.tv/HotShakingJamYouDontSay)
+[TLUH E8: Why Langdon can't type](https://clips.twitch.tv/HotShakingJamYouDontSay)
 
 We then launch our support-tools container leveraging the same data container so that the volumes are shared by both of our useful containers.
 
@@ -139,8 +139,8 @@ However, those points are manually added by the admins.
 If you have any questions about the points, find us on [discord](https://discord.gg/5VMVGJt) and ways [to collect them](../activities.md).
 
 ## Video Highlights:
-* [TLUH S1E8: DevConf.US Overview](https://clips.twitch.tv/ResilientWittyRamenSMOrc)
-* [TLUH S1E8: Wrapper container](https://clips.twitch.tv/ArbitraryAliveTitanOSsloth)
-* [TLUH S1E8: Why data containers?](https://clips.twitch.tv/OnerousBoredMomFunRun)
-* [TLUH S1E8: How to get out of a container!](https://clips.twitch.tv/IgnorantCooperativeLemurAliens)
-* [TLUH S1E8: Why Langdon can't type](https://clips.twitch.tv/HotShakingJamYouDontSay)
+* [TLUH E8: DevConf.US Overview](https://clips.twitch.tv/ResilientWittyRamenSMOrc)
+* [TLUH E8: Wrapper container](https://clips.twitch.tv/ArbitraryAliveTitanOSsloth)
+* [TLUH E8: Why data containers?](https://clips.twitch.tv/OnerousBoredMomFunRun)
+* [TLUH E8: How to get out of a container!](https://clips.twitch.tv/IgnorantCooperativeLemurAliens)
+* [TLUH E8: Why Langdon can't type](https://clips.twitch.tv/HotShakingJamYouDontSay)

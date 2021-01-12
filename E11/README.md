@@ -1,4 +1,4 @@
-# Season 1 Episode 11:  What's Next and Nextcloud
+# Episode 11:  What's Next and Nextcloud
 
 ## Description:
 Want to discuss what we should do on the show next and, in the meantime, let's get Nextcloud in to OpenShift.
@@ -23,7 +23,7 @@ Talked about a few events, [AnsibleFest](https://www.ansible.com/ansiblefest), [
 
 We also talked about Boston and hockey!
 
-[TLUH S1E10: Hockey and Langdon's home life](https://clips.twitch.tv/FrailSpikyLionRitzMitz)
+[TLUH E10: Hockey and Langdon's home life](https://clips.twitch.tv/FrailSpikyLionRitzMitz)
 
 We talked a bit about the weather because someone asked in the chat.
 We went back and forth a bit on Fahrenheit vs Celsius.
@@ -104,5 +104,5 @@ However, those points are manually added by the admins.
 If you have any questions about the points, find us on [discord](https://discord.gg/5VMVGJt) and ways [to collect them](../activities.md).
 
 ## Video Highlights:
-* [TLUH S1E10: Hockey and Langdon's home life](https://clips.twitch.tv/FrailSpikyLionRitzMitz)
+* [TLUH E10: Hockey and Langdon's home life](https://clips.twitch.tv/FrailSpikyLionRitzMitz)
 

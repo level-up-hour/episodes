@@ -5,7 +5,7 @@ The only proper definition of "internet points" is found on Urban Dictionary but
 
 Suffice to say, "internet points" are a made up way of rewarding people for doing things.
 Wikipedia does talk about "points" (but not Sweet, Sweet **Internet Points**!) on their [Gamification page](https://en.wikipedia.org/wiki/Gamification#Points) :).
-If you want a slightly longer explanation, checkout episode [S1E5](S1E5/README.md).
+If you want a slightly longer explanation, checkout episode [5](E5/README.md).
 
 We have grand plans for the TLUH Internet Points for the future.
 We would love to be able to award [badges](https://en.wikipedia.org/wiki/Gamification#Badges) and other cool things at some point.

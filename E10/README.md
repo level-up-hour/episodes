@@ -1,4 +1,4 @@
-# Season 1 Episode 10: Persistent Volumes, Podman YAML and OpenShift
+# Episode 10: Persistent Volumes, Podman YAML and OpenShift
 
 ## Description:
 
@@ -31,7 +31,7 @@ In our case, we are going to use [CRC](https://developers.redhat.com/products/co
 Before we mess with the PVs and PVCs we need to get the yaml we want to work with back.
 But first, clean up.
 
-[TLUH S1E10: Langdon throws out some yaml](https://clips.twitch.tv/ResolutePoisedBeefTriHard)
+[TLUH E10: Langdon throws out some yaml](https://clips.twitch.tv/ResolutePoisedBeefTriHard)
 
 We move on to reviewing the provided PVs in CRC.
 We point out where they live on the CRC VM and then demonstrate how we would get to them.
@@ -62,7 +62,7 @@ We show how to specify the PVCs and what we want to *request* from our PV.
 We also quickly discuss the joys of whitespace-based languages like yaml and python.
 Chris recommends the [indent-rainbow extension](https://github.com/oderwat/vscode-indent-rainbow) for VSCode (or any other editor you can find it for) which will lower the pain.
 
-[TLUH S1E10: Einstein, Calendars, and Emacs](https://clips.twitch.tv/RelievedSolidFlyDansGame)
+[TLUH E10: Einstein, Calendars, and Emacs](https://clips.twitch.tv/RelievedSolidFlyDansGame)
 
 We now deploy the PVC and show the UI representation that the PVC actually worked.
 We then go on to talk about the difference between "projects" and "namespaces."
@@ -72,7 +72,7 @@ We go back to the yaml to modify what the containers are actually consuming for 
 We move the storage from a place on disk to using the PVC we just created.
 We run in to the problem of names being limited in length.
 
-[TLUH S1E10: Java, Long Paths and Windows](https://clips.twitch.tv/CrowdedAgitatedPorcupineCoolStoryBro)
+[TLUH E10: Java, Long Paths and Windows](https://clips.twitch.tv/CrowdedAgitatedPorcupineCoolStoryBro)
 
 We setup the new volumes based on the PVCs but we run in to a different problem.
 Namely, we need to address the privileges we are requesting.
@@ -110,7 +110,7 @@ However, those points are manually added by the admins.
 If you have any questions about the points, find us on [discord](https://discord.gg/5VMVGJt) and ways [to collect them](../activities.md).
 
 ## Video Highlights:
-* [TLUH S1E10: Langdon throws out some yaml](https://clips.twitch.tv/ResolutePoisedBeefTriHard)
-* [TLUH S1E10: Einstein, Calendars, and Emacs](https://clips.twitch.tv/RelievedSolidFlyDansGame)
-* [TLUH S1E10: Java, Long Paths and Windows](https://clips.twitch.tv/CrowdedAgitatedPorcupineCoolStoryBro)
+* [TLUH E10: Langdon throws out some yaml](https://clips.twitch.tv/ResolutePoisedBeefTriHard)
+* [TLUH E10: Einstein, Calendars, and Emacs](https://clips.twitch.tv/RelievedSolidFlyDansGame)
+* [TLUH E10: Java, Long Paths and Windows](https://clips.twitch.tv/CrowdedAgitatedPorcupineCoolStoryBro)
 

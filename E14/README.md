@@ -1,4 +1,4 @@
-# Season 1 Episode 14: When to Orchestrate w/ Scott McBrien
+# Episode 14: When to Orchestrate w/ Scott McBrien
 
 ## Description
 
@@ -20,7 +20,7 @@ We have invited Scott McBrien, RHEL guru, to talk to us about when running a con
 ### Show Recap
 
 We start with some t-shirts.
-Chris shows off his "Podman the Rapper" t-shirt which is a throwback to [Episode 5](../S1E5/README.md).
+Chris shows off his "Podman the Rapper" t-shirt which is a throwback to [Episode 5](../E5/README.md).
 Scott shares his "Containers are Linux" t-shirt, which is awesome, and kind of a hot commodity.
 Langdon shares one of his favorite shirs, "Code On;" which is a cool OpenShift t-shirt.
 
@@ -50,7 +50,7 @@ Not to mention, how do you know you even covered all the concerns.
 Using an Open Source Orchestration Engine also gives you a community of people who are thinking about the same problems and noticing the issues that you may not have thought of or discovered yet.
 Scott proceeds to give a true example.
 
-[TLUH S1E14: JASON!! <shakes fist>](https://clips.twitch.tv/SolidTardyPonyKlappa)
+[TLUH E14: JASON!! <shakes fist>](https://clips.twitch.tv/SolidTardyPonyKlappa)
 
 However, our real point here is that developers, admins, etc. should not be building out complicated, bespoke environments.
 We proceed to give a few examples.
@@ -119,4 +119,4 @@ If you have any questions about the points, find us on [discord](https://discord
 
 ## Video Highlights
 
-* [TLUH S1E14: JASON!! <shakes fist>](https://clips.twitch.tv/SolidTardyPonyKlappa)
+* [TLUH E14: JASON!! <shakes fist>](https://clips.twitch.tv/SolidTardyPonyKlappa)

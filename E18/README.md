@@ -1,4 +1,4 @@
-# Season 1 Episode 18: Nextcloud on OpenShift
+# Episode 18: Nextcloud on OpenShift
 
 ## Description
 
