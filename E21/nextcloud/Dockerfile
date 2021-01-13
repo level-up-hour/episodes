@@ -7,7 +7,7 @@ RUN yum -y install php-gd php-xml \
     iproute procps less && \
     yum clean all
 
-USER default
+USER 1001
 # Add application sources
 # for some reason this is being added as root
 ADD ./nextcloud-20.0.2.tar.xz /tmp/
@@ -15,12 +15,12 @@ ADD launch.sh /opt/launch.sh
 USER root
 
 #for debugging
-RUN ls -l /tmp/nextcloud || :
-RUN ls -l /opt/app-root/src || :
+#RUN ls -l /tmp/nextcloud || :
+#RUN ls -l /opt/app-root/src || :
 
-RUN chown -R default /tmp/nextcloud
-RUN chown default /opt/launch.sh
+RUN chown -R 1001:0 /tmp/nextcloud
+RUN chown 1001:0 /opt/launch.sh
 RUN chmod a+x /opt/launch.sh
 #back to real user
-USER default
+USER 1001
 CMD /opt/launch.sh
