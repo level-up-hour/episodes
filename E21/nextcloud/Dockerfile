@@ -18,6 +18,7 @@ USER root
 #RUN ls -l /tmp/nextcloud || :
 #RUN ls -l /opt/app-root/src || :
 
+RUN chmod g+w -R /opt/app-root/src
 RUN chown -R 1001:0 /tmp/nextcloud
 RUN chown 1001:0 /opt/launch.sh
 RUN chmod a+x /opt/launch.sh
