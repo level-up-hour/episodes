@@ -28,14 +28,6 @@ You can get lots more information at [The Level Up Hour page](https://red.ht/lev
 We proceed to discuss the advantages of implementing a Service Mesh in both concept and in practice with OpenShift Service Mesh.
 We highlight mTLS, canary deployments, red/green deployments, wasm.
 
-## Further Reading
-
-If you want to know more about anything that came up in the show, here are some links to get you started.
-
-* Langdon's Blog Post: [What Can You Do With OpenShift Service Mesh 2?](https://www.openshift.com/blog/what-is-openshift-service-mesh-2.0-and-is-it-for-you)
-* [Introducing OpenShift Service Mesh 2.0](https://www.openshift.com/blog/introducing-openshift-service-mesh-2.0)
-* [WebAssembly](https://webassembly.org/)
-
 We also talk about twitch streaming being an interesting new learning model.
 If you haven't been browsing around for live coding twitch streams you should take a look.
 
@@ -43,6 +35,14 @@ We also demo Service Mesh in action starting at about minute 35.
 
 We talk a bunch about why and when you might want to implement a Service Mesh in your environment.
 You can check it out starting at about minute 55.
+
+## Further Reading
+
+If you want to know more about anything that came up in the show, here are some links to get you started.
+
+* Langdon's Blog Post: [What Can You Do With OpenShift Service Mesh 2?](https://www.openshift.com/blog/what-is-openshift-service-mesh-2.0-and-is-it-for-you)
+* [Introducing OpenShift Service Mesh 2.0](https://www.openshift.com/blog/introducing-openshift-service-mesh-2.0)
+* [WebAssembly](https://webassembly.org/)
 
 ## Sweet Sweet Internet Points
 
