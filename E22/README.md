@@ -89,5 +89,4 @@ If you have any questions about the points, find us on [discord](https://discord
 
 ## Video Highlights
 
-* [TLUH E21: A Walking Oxymoron](https://clips.twitch.tv/EphemeralAmericanRamenPraiseIt)
-* [TLUH E21: Episode Titling](https://clips.twitch.tv/PuzzledDependableFriseeKappaClaus)
+* [TLUH E22: *Not* In the Clouds](https://clips.twitch.tv/HeartlessArborealClintVoteYea)
