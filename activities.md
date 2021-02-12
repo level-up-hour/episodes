@@ -19,10 +19,10 @@ You take the code you receive and [submit it](https://red.ht/level-up-point-form
 
 * Attend any TLUH and submit the code
 * Submit an issue on any repository in [TLUH Org](https://github.com/level-up-hour)
-* Submit 5 TLUH show codes
+* Submit 10 TLUH show codes
+* Submit 20 TLUH show codes
 * Submit a PR on any repository in [TLUH Org](https://github.com/level-up-hour)
 * PR accepted on any repository in [TLUH Org](https://github.com/level-up-hour)
-* Attend a specific episode (code given out during the show)
 * Joined the [Discord](https://discord.gg/5VMVGJt)
 * Submit a code (will be in the form TLUH-XXXX) found on the internet
 
