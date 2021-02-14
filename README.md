@@ -46,3 +46,7 @@ Episodes:
 * [Episode 18: Nextcloud in OpenShift](E18/README.md)
 * [Episode 19: Containers, Data Science and Replication](E19/README.md)
 * [Episode 20: Kubernetes and Docker Deprecation](E20/README.md)
+* [Episode 21: Service Mesh](E21/README.md)
+* [Episode 22: Introducing the Microservice CoolStore](E22/README.md)
+* [Episode 23: APIs and their Gateways](E23/README.md)
+* [Episode 24: OpenShift Tools, available everywhere, via Quay.io](E24/README.md)
