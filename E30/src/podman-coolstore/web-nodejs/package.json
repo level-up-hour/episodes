@@ -1,0 +1,73 @@
+{
+  "name": "web",
+  "description": "Web UI for the CoolStore Microservices App",
+  "version": "1.0.0",
+  "author": "Red Hat, Inc.",
+  "license": "Apache-2.0",
+  "scripts": {
+    "lint": "xo",
+    "prepare": "echo 'To confirm CVE compliance, run \"npm run security-check\"' ",
+    "security-check": "nsp check",
+    "ci": "npm run lint && npm run coveralls",
+    "release": "standard-version -a",
+    "openshift": "nodeshift --strictSSL=false --dockerImage=registry.access.redhat.com/rhoar-nodejs/nodejs-10",
+    "postinstall": "license-reporter report -s && license-reporter save -s --xml licenses.xml",
+    "start": "node ."
+  },
+  "main": "./bin/www",
+  "standard-version": {
+    "scripts": {
+      "postbump": "npm run postinstall && node release.js",
+      "precommit": "git add .openshiftio/application.yaml licenses/"
+    }
+  },
+  "xo": {
+    "space": 2,
+    "rules": {
+      "space-before-function-paren": [
+        "error",
+        "always"
+      ]
+    }
+  },
+  "files": [
+    "package.json",
+    "app",
+    "view",
+    "server.js",
+    "licenses"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcouliba/cloud-native-workshop.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mcouliba/cloud-native-workshop/issues"
+  },
+  "homepage": "https://github.com/mcouliba/cloud-native-workshop#readme",
+  "devDependencies": {
+    "js-yaml": "~3.13.1",
+    "nodeshift": "~3.0.0",
+    "nyc": "~14.1.0",
+    "proxyquire": "^2.0.0",
+    "rhoaster": "^0.4.1",
+    "standard-version": "^6.0.1",
+    "supertest": "^4.0.2",
+    "tap-spec": "~5.0.0",
+    "xo": "^0.32.1"
+  },
+  "dependencies": {
+    "@patternfly/patternfly": "^2.36.2",
+    "angular": ">=1.7.9",
+    "angular-route": ">=1.7.9",
+    "body-parser": "~1.19.0",
+    "cors": "^2.8.5",
+    "debug": "^4.0.1",
+    "express": "4.16.4",
+    "gulp": "^4.0.2",
+    "gulp-ng-config": "^1.5.1",
+    "kube-probe": "^0.3.0",
+    "license-reporter": "^1.3.0",
+    "webpack": ">=1.11.0"
+  }
+}

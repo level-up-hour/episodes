@@ -1,0 +1,30 @@
+<section class="pf-c-page__main-section">
+    <div class="pf-l-gallery pf-m-gutter">
+        <div ng-repeat="item in products" class="pf-l-gallery__item">
+            <div class="pf-c-card pf-m-hoverable pf-m-compact">
+                <div class="pf-c-card__head">
+                    <img class="img-responsive img-circle" ng-src="/app/imgs/{{item.product.name}}.jpg"></img>
+                </div>
+                <div class="pf-c-card__header pf-c-title pf-m-md">
+                    <p>{{item.product.name}}</p>
+                    <div class="pf-c-content">
+                    <small>Provided by Red Hat</small>
+                    </div>
+                </div>
+                <div class="pf-c-card__body">
+                    {{item.product.description}}
+                </div>
+                <div class="pf-c-card__footer">
+                    <span>{{item.product.price | currency}}</span>
+                    <div ng-if="item.product.availability.quantity > 0" style="float:right">
+                        <span class="pf-c-label pf-m-compact label-{{item.product.availability.quantity < 15 ? 'warning' : 'primary'}}">
+                            {{item.product.availability.quantity}} left!
+                        </span>
+                        <a target="_blank" href="{{item.product.availability.link}}">&nbsp;</span></a>
+                    </div>
+                    <div ng-if="item.product.availability.quantity == 0" style="float:right"><span class="fa fa-warning fa-lg"></span>&nbsp;Not in Stock</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

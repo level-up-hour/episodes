@@ -1,0 +1,11 @@
+FROM registry.access.redhat.com/ubi8/nodejs-10
+
+ADD ./ /opt/app-root/src/
+USER root
+RUN npm install
+RUN chown -R default:root *
+RUN chmod a+x /opt/app-root/src/runit.sh
+USER default
+EXPOSE 8080
+
+CMD ["/opt/app-root/src/runit.sh"]

@@ -1,0 +1,7 @@
+{
+    "COOLSTORE_CONFIG": {
+        "API_ENDPOINT": "localhost:8080",
+        "SECURE_API_ENDPOINT": "localhost:8443",
+        "SSO_ENABLED": "false"
+    }
+}
