@@ -6,7 +6,7 @@ This week we continue to explore Docker Compose support in the latest Podman rel
 
 ## Details
 
-* Air Date: Apr. 13, 2021
+* Air Date: Apr. 07, 2021
 * [Watch the episode](https://www.youtube.com/watch?v=6QjqV30ysCQ)
 * [Show Recap](#show-recap)
 * [Further Reading](#further-reading)
