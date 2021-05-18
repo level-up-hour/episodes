@@ -6,16 +6,11 @@ It's been a few weeks, but we're back and ready to dig into the news we heard at
 
 ## Details
 
-* Air Date: May 11, 2021
+* Air Date: May 12, 2021
 * [Watch the episode](https://www.youtube.com/watch?v=ZOg1kYvg_2U)
-* [Show Recap](#show-recap)
 * [Further Reading](#further-reading)
 * [Sweet, Sweet Internet Points](#sweet-sweet-internet-points)
 * [Learn More About Level Up](https://red.ht/leveluphour)
-
-### Show Recap
-
-TBD
 
 ## Further Reading
 
@@ -42,12 +37,12 @@ If you want to know more about anything that came up in the show, here are some 
 
 As of the show this morning:
 
-* narendev:          
-* nlhacm:            
-* Noah Frickshun:    
-* Joefuzz:           
-* Det_Conan_Kudo:    
-* baconfork:         
+* narendev:          5,100
+* nlhacm:            5,000
+* Noah Frickshun:    3,900
+* Joefuzz:           2,300
+* Det_Conan_Kudo:    1,900
+* baconfork:         1,600
 
 If you want to collect points for the most recent episode, find the code in the stream (link [here](#details)) and submit it at [https://red.ht/level-up-point-form](https://red.ht/level-up-point-form).
 You do not need the "full" url that is displayed in the show it just makes it easier.
