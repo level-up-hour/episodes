@@ -16,16 +16,19 @@ Do you want to become a *certified* container pro but don’t know how? How can 
 
 If you want to know more about anything that came up in the show, here are some links to get you started.
 
+* [Red Hat Learning Subscription](https://www.redhat.com/en/services/training/learning-subscription)
+* [Red Hat Learning Community](learn.redhat.com)
+
 ## Sweet Sweet Internet Points
 
 As of the show this morning:
 
-* narendev:
-* nlhacm:
-* Noah Frickshun:
-* Joefuzz:
-* Det_Conan_Kudo:
-* baconfork:
+* narendev:         5,400
+* nlhacm:           5,100
+* Noah Frickshun:   3,900
+* Joefuzz:          2,300
+* Det_Conan_Kudo:   2,000
+* baconfork:        1,700
 
 If you want to collect points for the most recent episode, find the code in the stream (link [here](#details)) and submit it at [https://red.ht/level-up-point-form](https://red.ht/level-up-point-form).
 You do not need the "full" url that is displayed in the show it just makes it easier.
