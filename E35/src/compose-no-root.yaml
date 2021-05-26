@@ -1,0 +1,23 @@
+---
+- hosts: localhost
+  become: true
+  become_method: sudo
+  tasks:
+  - name: Ensure group "docker" exists
+    group:
+      name: docker
+      state: present
+  - name: "Add {{ lookup('env', 'USER') }} to docker group"
+    user:
+      name: "{{ lookup('env', 'USER') }}"
+      groups: docker
+      append: yes
+  - name: Set permissions on socket dir
+    file:
+      path: /run/podman/
+      group: docker
+      mode: "g+x"
+  - name: Set permissions on socket
+    file:
+      path: /run/podman/podman.sock
+      group: docker

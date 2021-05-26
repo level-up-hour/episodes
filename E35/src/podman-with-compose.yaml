@@ -1,0 +1,32 @@
+---
+- hosts: localhost
+  become: true
+  become_method: sudo
+  tasks:
+  - name: Install podman
+    package: name={{item}} state=present
+    with_items:
+      - podman
+      - skopeo
+      - buildah
+  - name: Install podman components enabling docker-compose
+    package: name={{item}} state=present
+    with_items:
+      - podman-docker
+      - docker-compose
+  - name: enable podman socket
+    systemd:
+      name: podman.socket
+      state: started
+      enabled: True
+  - name: Check that socket was created and works
+    uri:
+      url: "http://localhost/_ping"
+      method: GET
+      body_format: json
+      unix_socket: /var/run/docker.sock
+      status_code: 200
+    register: result
+    until: result.status == 200
+    retries: 20
+    delay: 5
