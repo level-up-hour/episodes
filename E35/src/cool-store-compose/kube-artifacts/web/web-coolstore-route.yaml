@@ -1,0 +1,30 @@
+apiVersion: v1
+items:
+- apiVersion: route.openshift.io/v1
+  kind: Route
+  metadata:
+    annotations:
+      openshift.io/host.generated: "true"
+    labels:
+      app: coolstore
+      app.kubernetes.io/instance: web
+      app.kubernetes.io/name: nodejs
+      app.kubernetes.io/part-of: coolstore
+    name: web-coolstore
+  spec:
+    port:
+      targetPort: http
+    to:
+      kind: Service
+      name: web-coolstore
+      weight: 100
+    wildcardPolicy: None
+  status:
+    ingress:
+    - conditions:
+      - status: "True"
+        type: Admitted
+kind: List
+metadata:
+  resourceVersion: ""
+  selfLink: ""

@@ -1,0 +1,29 @@
+apiVersion: v1
+items:
+- apiVersion: v1
+  kind: Service
+  metadata:
+    annotations:
+      openshift.io/generated-by: OpenShiftNewApp
+    labels:
+      app: web
+      app.kubernetes.io/instance: web
+      app.kubernetes.io/name: nodejs
+      app.kubernetes.io/part-of: coolstore
+    name: web-coolstore
+  spec:
+    ports:
+    - name: http
+      port: 8080
+      protocol: TCP
+      targetPort: 8080
+    sessionAffinity: None
+    type: ClusterIP
+    selector:
+      app: web
+  status:
+    loadBalancer: {}
+kind: List
+metadata:
+  resourceVersion: ""
+  selfLink: ""

@@ -1,0 +1,80 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    app.kubernetes.io/component-source-type: git
+    app.openshift.io/connects-to: gateway
+    openshift.io/generated-by: OpenShiftNewApp
+  labels:
+    app: web
+    app.kubernetes.io/instance: web
+    app.kubernetes.io/name: nodejs
+    app.kubernetes.io/part-of: coolstore
+  name: web-coolstore
+spec:
+  progressDeadlineSeconds: 600
+  replicas: 1
+  revisionHistoryLimit: 10
+  selector:
+    matchLabels:
+      app: web
+      app.kubernetes.io/instance: web
+      app.kubernetes.io/name: nodejs
+      app.kubernetes.io/part-of: coolstore
+      deployment: web-coolstore
+  strategy:
+    rollingUpdate:
+      maxSurge: 25%
+      maxUnavailable: 25%
+    type: RollingUpdate
+  template:
+    metadata:
+      annotations:
+        openshift.io/generated-by: OpenShiftNewApp
+      creationTimestamp: null
+      labels:
+        app: web
+        app.kubernetes.io/instance: web
+        app.kubernetes.io/name: nodejs
+        app.kubernetes.io/part-of: coolstore
+        deployment: web-coolstore
+        maistra.io/expose-route: "true"
+    spec:
+      containers:
+      - env:
+        - name: OPENSHIFT_BUILD_NAMESPACE
+          valueFrom:
+            fieldRef:
+              fieldPath: metadata.namespace
+        image: quay.io/jchraibi/web-coolstore:latest
+        imagePullPolicy: IfNotPresent
+        livenessProbe:
+          failureThreshold: 3
+          httpGet:
+            path: /
+            port: 8080
+            scheme: HTTP
+          periodSeconds: 5
+          successThreshold: 1
+          timeoutSeconds: 1
+        name: web-coolstore
+        ports:
+        - containerPort: 8080
+          protocol: TCP
+        readinessProbe:
+          failureThreshold: 3
+          httpGet:
+            path: /
+            port: 8080
+            scheme: HTTP
+          periodSeconds: 5
+          successThreshold: 1
+          timeoutSeconds: 1
+        resources: {}
+        terminationMessagePath: /dev/termination-log
+        terminationMessagePolicy: File
+      dnsPolicy: ClusterFirst
+      restartPolicy: Always
+      schedulerName: default-scheduler
+      securityContext: {}
+      terminationGracePeriodSeconds: 30

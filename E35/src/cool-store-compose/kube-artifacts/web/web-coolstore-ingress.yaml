@@ -1,0 +1,14 @@
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata:
+  name: web
+spec:
+  rules:
+    - host: REPLACE_WITH_YOUR_OWN_HOST
+      http:
+        paths:
+          - path: /
+            pathType: ImplementationSpecific
+            backend:
+              serviceName: web-coolstore
+              servicePort: 8080

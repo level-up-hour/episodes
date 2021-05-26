@@ -1,0 +1,33 @@
+version: '3.7'
+services:
+  catalog:
+    image: quay.io/jchraibi/catalog-coolstore:latest
+    restart: always
+    ports:
+      - 8180:8080
+      - 8143:8443
+      - 8178:8778
+  inventory:
+    image: quay.io/jchraibi/inventory-coolstore:latest
+    restart: always
+    ports:
+      - 8280:8080
+      - 8243:8443
+      - 8278:8778
+  gateway:
+    image: quay.io/jchraibi/gateway-coolstore:latest
+    environment:
+      - COMPONENT_CATALOG_HOST=catalog
+      - COMPONENT_CATALOG_PORT=8180
+      - COMPONENT_INVENTORY_HOST=inventory
+      - COMPONENT_INVENTORY_PORT=8280
+    ports:
+      - 8380:8080
+  web:
+    image: quay.io/jchraibi/web-coolstore:latest
+    environment:
+      - COMPONENT_GATEWAY_HOST=gateway
+      - COMPONENT_GATEWAT_PORT=8380
+      - COOLSTORE_GW_ENDPOINT=gateway:8380
+    ports:
+      - 8080:8080

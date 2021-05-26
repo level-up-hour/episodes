@@ -1,0 +1,40 @@
+apiVersion: v1
+items:
+- apiVersion: v1
+  kind: Service
+  metadata:
+    annotations:
+      app.kubernetes.io/component-source-type: binary
+    labels:
+      app: catalog
+      app.kubernetes.io/instance: catalog
+      app.kubernetes.io/managed-by: odo
+      app.kubernetes.io/managed-by-version: v2.0.4
+      app.kubernetes.io/name: java
+      app.kubernetes.io/part-of: coolstore
+      app.openshift.io/runtime-version: "11"
+    name: catalog-coolstore
+  spec:
+    ports:
+    - name: 8778-tcp
+      port: 8778
+      protocol: TCP
+      targetPort: 8778
+    - name: http
+      port: 8080
+      protocol: TCP
+      targetPort: 8080
+    - name: 8443-tcp
+      port: 8443
+      protocol: TCP
+      targetPort: 8443
+    sessionAffinity: None
+    type: ClusterIP
+    selector:
+      app: catalog
+  status:
+    loadBalancer: {}
+kind: List
+metadata:
+  resourceVersion: ""
+  selfLink: ""
