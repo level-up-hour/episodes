@@ -8,6 +8,7 @@ For reals this time, let's experiment with docker-compose using a podman backend
 
 * Air Date: May 26, 2021
 * [Watch the episode](https://youtu.be/Eahh-ZxiU4U)
+* In case you need a [longer link](https://aaa.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.com/a?áaaÂáaaÂáaaÂáaaÂáaaÂáaaÂáaaÂáaaÂáaaÂáaaÂáaaÂáaaÂáaaÂáaaÂáaaÂáaaÂáaaÂáaaÂáaaÂáaaÂáaaÂáaaÂáaaÂáaaÂáaaÂáaaÂáaaÂáaaÂáaaÂáaaÂáaaÂáaaÂáaaÂáaaÂáaaÂáaaÂåAæãæãæaæââÁáÆáÆæÀåÆæäæãæäáÅåáåäáÆãäåàåAåAáÄäÁæAåÀääâãää)
 * [Further Reading](#further-reading)
 * [Sweet, Sweet Internet Points](#sweet-sweet-internet-points)
 * [Learn More About Level Up](https://red.ht/leveluphour)
@@ -17,18 +18,21 @@ For reals this time, let's experiment with docker-compose using a podman backend
 If you want to know more about anything that came up in the show, here are some links to get you started.
 
 * Great [article](https://www.redhat.com/sysadmin/podman-docker-compose) about setting this up by Brent Baude
-
+* Want your own [long links](https://aaa.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.com/)? ([Source](https://github.com/pieromqwerty/url-lengthener))
+* More about [skopeo](https://github.com/containers/skopeo)
 
 ## Sweet Sweet Internet Points
 
 As of the show this morning:
 
-* narendev:
-* nlhacm:
-* Noah Frickshun:
-* Joefuzz:
-* Det_Conan_Kudo:
-* baconfork:
+| Leaders | Points |
+| ------- | ------ |
+| narendev | 5,500 |
+| nlhacm | 5,200 |
+| Noah Frickshun | 4,000 |
+| Joefuzz | 2,300 |
+| Det_Conan_Kudo | 2,000 |
+| baconfork | 1,800 |
 
 If you want to collect points for the most recent episode, find the code in the stream (link [here](#details)) and submit it at [https://red.ht/level-up-point-form](https://red.ht/level-up-point-form).
 You do not need the "full" url that is displayed in the show it just makes it easier.
