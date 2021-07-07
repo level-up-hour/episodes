@@ -7,6 +7,7 @@ Learn more at [https://red.ht/leveluphour](https://red.ht/leveluphour)
 ## Details
 * Air Date: Jul. 29, 2020
 * [Watch the episode](https://youtu.be/OOWt7-riLCU)
+* [Episode Transcript](./transcript-en.txt)
 * [Show Notes](#show-notes)
 * [Sweet Sweet Internet Points](#sweet-sweet-internet-points)
 * [Video Highlights](#video-highlights)
