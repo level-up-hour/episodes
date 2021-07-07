@@ -12,6 +12,6 @@ then
 fi
 
 echo "Starting `date`"
-/opt/blender*/blender -b $1.blend -t 0 -x 1 -o //$1_render -a
+/opt/blender/blender -b $1.blend -t 0 -x 1 -o //$1_render -a
 echo "Completed render at `date`"
 
