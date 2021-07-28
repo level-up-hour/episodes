@@ -66,3 +66,4 @@ Episodes:
 * [Episode E38: Kubernetes refactoring with Tackle](E38/README.md)
 * [Episode E39: Connected Customer Experience](E39/README.md)
 * [Episode E40: Using Serverless to clean URLs](E40/README.md)
+* [Episode E41: DevSecOps and Shift Left Part 1](E41/README.md)
