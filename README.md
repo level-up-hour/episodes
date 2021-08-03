@@ -67,4 +67,5 @@ Episodes:
 * [Episode E39: Connected Customer Experience](E39/README.md)
 * [Episode E40: Using Serverless to clean URLs](E40/README.md)
 * [Episode E41: DevSecOps and Shift Left Part 1](E41/README.md)
+* [Episode E42: DevSecOps and Shift Left Part 1](E42/README.md)
 * [Episode 43: Migrating Kubernetes workloads & states with Crane](E43/README.md)
