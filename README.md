@@ -69,3 +69,4 @@ Episodes:
 * [Episode E41: DevSecOps and Shift Left Part 1](E41/README.md)
 * [Episode E42: DevSecOps and Shift Left Part 1](E42/README.md)
 * [Episode 43: Migrating Kubernetes workloads & states with Crane](E43/README.md)
+* [Episode 44: Administering CI/CD services on OpenShift](E44/README.md)
