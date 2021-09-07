@@ -70,3 +70,4 @@ Episodes:
 * [Episode E42: DevSecOps and Shift Left Part 1](E42/README.md)
 * [Episode 43: Migrating Kubernetes workloads & states with Crane](E43/README.md)
 * [Episode 44: Administering CI/CD services on OpenShift](E44/README.md)
+* [Episode 44: The Level Up Hour (E45): UBI-micro hits the scene](E45/README.md)
