@@ -72,3 +72,4 @@ Episodes:
 * [Episode 44: Administering CI/CD services on OpenShift](E44/README.md)
 * [Episode 44: The Level Up Hour (E45): UBI-micro hits the scene](E45/README.md)
 * [The Level Up Hour (E46): Keylime and cloud-native security](E46/README.md)
+* [The Level Up Hour (E47): Containerizing your application](E47/README.md)
